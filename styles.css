@@ -1,5 +1,16 @@
+.soru-container {
+    display: flex;
+    letter-spacing: 15px;
+    padding: 0;
+    border: 0;
+    font-size: 5rem;
+    align-items: center;
+
+}
+
 /* BUTTONS */
 .btn {
+    width: 400px;
     font-size: 1.5rem;
     padding: 1rem 0;
     width: 100%;
@@ -26,6 +37,7 @@
 
 .harfBtn {
     display: flex;
+    width: 80px;
     flex-grow: 1;
     flex-direction: row;
     flex-basis: 2rem;
@@ -53,8 +65,10 @@
 }
 
 .harfler-container {
+    width: 400px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
 }
 
